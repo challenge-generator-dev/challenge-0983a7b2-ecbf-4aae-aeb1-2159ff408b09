@@ -1,0 +1,168 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Dell XPS 15",
+      "description": "Computadora portátil de alta gama con procesador Intel Core i7",
+      "price": 1299.99,
+      "stock": 25,
+      "categoryId": 1,
+      "sku": "LAP-DEL-XPS-15",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Mouse Inalámbrico Logitech MX Master 3",
+      "description": "Mouse ergonómico avanzado con scroll electromagnético",
+      "price": 99.99,
+      "stock": 150,
+      "categoryId": 2,
+      "sku": "MOU-LOG-MX3",
+      "createdAt": "2024-01-16T14:20:00Z",
+      "updatedAt": "2024-01-16T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Teclado Mecánico Corsair K70",
+      "description": "Teclado gaming con switches Cherry MX Red",
+      "price": 169.99,
+      "stock": 80,
+      "categoryId": 2,
+      "sku": "KEY-COR-K70",
+      "createdAt": "2024-01-17T09:15:00Z",
+      "updatedAt": "2024-01-17T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Monitor Samsung 27 pulgadas 4K",
+      "description": "Monitor UHD con tecnología HDR y panel IPS",
+      "price": 449.99,
+      "stock": 45,
+      "categoryId": 1,
+      "sku": "MON-SAM-27-4K",
+      "createdAt": "2024-01-18T11:45:00Z",
+      "updatedAt": "2024-01-18T11:45:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Auriculares Sony WH-1000XM5",
+      "description": "Auriculares inalámbricos con cancelación activa de ruido",
+      "price": 349.99,
+      "stock": 60,
+      "categoryId": 3,
+      "sku": "AUD-SON-WH1000",
+      "createdAt": "2024-01-19T16:30:00Z",
+      "updatedAt": "2024-01-19T16:30:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Webcam Logitech C920",
+      "description": "Cámara web Full HD 1080p con autofocus",
+      "price": 79.99,
+      "stock": 200,
+      "categoryId": 3,
+      "sku": "CAM-LOG-C920",
+      "createdAt": "2024-01-20T08:00:00Z",
+      "updatedAt": "2024-01-20T08:00:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Disco SSD Samsung 1TB",
+      "description": "Unidad de estado sólido NVMe PCIe 4.0",
+      "price": 119.99,
+      "stock": 300,
+      "categoryId": 4,
+      "sku": "SSD-SAM-1TB",
+      "createdAt": "2024-01-21T13:10:00Z",
+      "updatedAt": "2024-01-21T13:10:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Memoria RAM Corsair 16GB DDR5",
+      "description": "Kit de memoria DDR5 5600MHz",
+      "price": 89.99,
+      "stock": 120,
+      "categoryId": 4,
+      "sku": "RAM-COR-16GB-D5",
+      "createdAt": "2024-01-22T10:25:00Z",
+      "updatedAt": "2024-01-22T10:25:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Cable HDMI 2.1 3 metros",
+      "description": "Cable de alta velocidad para conexión 8K",
+      "price": 24.99,
+      "stock": 500,
+      "categoryId": 5,
+      "sku": "CAB-HDMI-3M",
+      "createdAt": "2024-01-23T15:40:00Z",
+      "updatedAt": "2024-01-23T15:40:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Hub USB-C 7 puertos",
+      "description": "Concentrador USB con alimentación y lector de tarjetas",
+      "price": 45.99,
+      "stock": 180,
+      "categoryId": 5,
+      "sku": "HUB-USBC-7P",
+      "createdAt": "2024-01-24T12:00:00Z",
+      "updatedAt": "2024-01-24T12:00:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Tablet iPad Air 10.9",
+      "description": "Tablet Apple con chip M1 y pantalla Liquid Retina",
+      "price": 599.99,
+      "stock": 35,
+      "categoryId": 1,
+      "sku": "TAB-APL-AIR",
+      "createdAt": "2024-01-25T09:30:00Z",
+      "updatedAt": "2024-01-25T09:30:00Z"
+    },
+    {
+      "id": 12,
+      "name": "Micrófono Blue Yeti",
+      "description": "Micrófono USB profesional para streaming y podcasts",
+      "price": 129.99,
+      "stock": 70,
+      "categoryId": 3,
+      "sku": "MIC-BLU-YETI",
+      "createdAt": "2024-01-26T14:15:00Z",
+      "updatedAt": "2024-01-26T14:15:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Computadoras y Tablets",
+      "description": "Equipos de cómputo incluyendo laptops, desktops y tablets",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Periféricos",
+      "description": "Mouse, teclados y accesorios de entrada",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Audio",
+      "description": "Auriculares, micrófonos y dispositivos de audio",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Almacenamiento",
+      "description": "Discos SSD, HDD y memorias RAM",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Cables y Conectores",
+      "description": "Cables HDMI, USB, cargadores y adaptadores",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
